@@ -1,4 +1,4 @@
-package fg.binlist.models;
+package fg.binlist;
 
 public class BinModel {
 
