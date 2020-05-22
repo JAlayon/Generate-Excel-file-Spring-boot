@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th"http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>BinList</title>
+
+</head>
+<body>
+	<h1>Subir archivo con bins</h1>
+
+	<div>
+		<form method="POST"
+		      action="/download" 
+		      enctype="multipart/form-data"
+			  id="fileUploadForm">
+			<div>
+				<label> <input type="file" name="file"><br><br>
+				</label>
+			</div>
+			<div>
+				<input type="submit" value="Cargar archivo">
+			</div>
+		</form>
+	</div>
+</body>
+</html>
